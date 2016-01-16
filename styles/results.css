@@ -6,6 +6,7 @@
 
 a {
     text-decoration: none;
+    color: #1a0dab;
 }
 
 body {
@@ -206,15 +207,17 @@ ul, li {
 }
 
 .selected {
-    color: blue !important;
+    color: #4285f4 !important;
     font-weight: bold;
+    border-bottom: 3px solid #4285f4;
 }
 
 #menu_bar ul li a {
     text-decoration: none;
     color: #666;
-    margin: 6px 12px;
     font-size: .9em;
+    padding: 15px 8px 18px 8px;
+    margin: 0 3px;
 }
 
 #profile {
@@ -231,13 +234,17 @@ ul, li {
     width: 550px;
 }
 
+#l_col a:hover {
+    text-decoration: underline;
+}
+
 #num_res {
     font-size: .8em;
     color: #808080;
     margin-bottom: 20px;
 }
 
-#news {
+#news, #results, #related {
     border-bottom: 1px solid #ebebeb;
 }
 
@@ -263,7 +270,6 @@ ul, li {
 .source {
     font-size: .8em !important;
     color: #006621;
-    margin: 2px 0 9px 0;
 }
 
 .source span {
@@ -287,3 +293,76 @@ p {
 .more {
     margin: 16px 0;
 }
+
+#results , #related{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#results h3 {
+    margin-top: 20px;
+}
+
+#results p {
+    font-size: .84em;
+    margin-bottom: 2px;
+}
+
+h5 {
+    margin-top: 9px;
+    margin-bottom: 3px;
+}
+
+#top_story {
+    margin-bottom: 3px;
+}
+
+.thumbnail {
+    width: 118px;
+    height: 67px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin: 5px 6px 0 0;
+}
+
+.thumbnail img {
+    position: absolute;
+    top: -12px;
+}
+
+.date {
+    color: #808080;
+}
+
+.dur {
+    position: absolute;
+    background-color: black;
+    color: white;
+    right: 0;
+    bottom: 2px;
+    font-size: .75em;
+    font-weight: bold;
+    padding: 2px;
+}
+
+#related {
+    overflow: hidden;
+}
+
+#related h3 {
+    color: #808080;
+    margin-bottom: 16px;
+}
+
+.related_col {
+    float: left;
+    margin-right: 16px;
+}
+
+.related_col p {
+    padding-bottom: 7px;
+    font-size: .8em;
+}
+}
+
