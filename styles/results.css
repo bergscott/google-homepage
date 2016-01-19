@@ -364,5 +364,59 @@ h5 {
     padding-bottom: 7px;
     font-size: .8em;
 }
+
+#results_nav {
+    margin: 25px auto;
+    width: 300px;
 }
 
+#results_nav table {
+    border-collapse: collapse;
+}
+
+#results_nav table tr td{
+    text-align: center;
+}
+
+#results_nav table tr td a{
+    color: #4285f4;
+    font-size: .8em;
+    display: block;
+}
+
+#results_nav .o_cont {
+    background: url(../images/nav_logo242.png) no-repeat;
+    width: 20px;
+    height: 40px;
+    display: block;
+    background-position: -74px 0;
+}
+
+#rnav_lead {
+    background: url(../images/nav_logo242.png) no-repeat;
+    height: 40px;
+    width: 28px;
+    display: block;
+    background-position: -24px 0;
+}
+
+#rnav_tail {
+    background: url(../images/nav_logo242.png) no-repeat;
+    height: 40px;
+    width: 71px;
+    display: block;
+    background-position: -96px 0;
+}
+
+#nav_last {
+    text-align: right !important;
+}
+
+#next_txt {
+    display: block;
+    margin-left: 53px;
+}
+
+.first_o {
+    background-position: -53px 0 !important;
+}
