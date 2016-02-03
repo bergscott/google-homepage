@@ -232,6 +232,7 @@ ul, li {
     left: 136px;
     margin-top: 13px;
     width: 550px;
+    float: left;
 }
 
 #l_col a:hover, #summary a:hover {
@@ -427,6 +428,7 @@ h5 {
     margin-top: 53px;
     width: 454px;
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    float: left;
 }
 
 #pictures {
@@ -553,3 +555,72 @@ h1 {
     overflow-x: hidden;
     overflow-y: auto;
 }
+
+#album_thumbs_cont {
+    position: relative;
+}
+
+#album_thumbs_cont span {
+    position: absolute;
+    right: 0px;
+    top: -25px;
+}
+
+#album_thumbs_cont span a {
+    color: #777;
+    font-size: .8em;
+}
+
+.album_thumb {
+    display: inline-block;
+    width: 70px;
+    vertical-align: top;
+    padding-left: 14px;
+    font-size: .8em;
+}
+
+.first_thumb {
+    padding-left: 0px;
+}
+
+.album_thumb a:hover {
+    text-decoration: none !important;
+}
+
+#summary_contents .album_year {
+    margin-top: 0;
+    color: #777;
+}
+
+#summary_more {
+    border-top: 1px solid #ebebeb;
+    margin-top: 10px;
+}
+
+#summary_more span {
+    position: relative;
+    bottom: 12px;
+    color: #777;
+}
+
+#summary_more a:hover {
+    text-decoration: none;
+}
+
+
+#feedback {
+    position: absolute;
+    right: 15px;
+    bottom: -18px;
+    font-size: .7em;
+    font-style: italic;
+}
+
+#feedback a {
+    color: #777;
+}
+
+#footer {
+    clear: left;
+}
+
