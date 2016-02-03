@@ -77,7 +77,7 @@ input[type=submit] {
 #results_header ul {
     display: inline-block;
     position: absolute;
-    right: 40px;
+    right: 25px;
 }
 
 #name {
@@ -101,7 +101,7 @@ ul, li {
 #menu_rt {
     display: inline-block;
     position: absolute;
-    right: 45px;
+    right: 25px;
     top: 14px;
     height: 30px;
 }
@@ -231,7 +231,7 @@ ul, li {
     position: relative;
     margin-left: 136px;
     margin-top: 13px;
-    width: 550px;
+    width: 512px;
     display: inline-block;
 }
 
@@ -252,13 +252,10 @@ ul, li {
 #news img {
     display: inline-block;
     float: left;
+    margin-right: 8px;
 }
 
 #news_top {
-    height: 100px;
-    width: 400px;
-    display: inline-block;
-    float: left;
     margin-bottom: 14px;
     padding-left: 8px;
 }
@@ -424,7 +421,7 @@ h5 {
 
 #summary {
     position: relative;
-    margin-left: 20px;
+    margin-left: 50px;
     margin-top: 53px;
     width: 454px;
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
@@ -654,6 +651,10 @@ h1 {
 #foot_links a {
     font-size: .8em;
     margin-right: 25px;
+}
+
+h3 {
+    font-size: 1.15em
 }
 
 
